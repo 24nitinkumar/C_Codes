@@ -10,7 +10,7 @@ int main(){
     if(a>b && a>c){
         printf("a is greater than b and c");
     }
-    if (b>a && b>c){
+    else if (b>a && b>c){
         printf("b is greater than a and c");
     }
     else{
