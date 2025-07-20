@@ -13,6 +13,9 @@ int main(){
     else if (b>a && b>c){
         printf("b is greater than a and c");
     }
+    else if (a==b && b==c){
+        printf("a,b and c are equal");
+    }
     else{
         printf("c is greater than b and a");
     }
